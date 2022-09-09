@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="/style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" id="first">
+                <div class="" id="second">
+
+                    <div class="col-12 dashed" id="time">
+                        <p> <span id="mint">00</span><span id="colon">:</span> <span id="seconds">00</span><span
+                                id="colon">:</span> <span id="mili">00</span></p>
+                    </div>
+                    <div className="">
+                        <div class="col-12 p-0" id="btn"><button id="start"
+                                class="btn btn-success col-4 ">start</button>
+                            <button id="stop" class="btn btn-danger col-4 ">stop</button>
+                        </div>
+                    </div>
+                    <div class="col-12 p-0" id="reBtn"><button id="reset" class="btn btn-primary">reset</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="/index.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+z
+<!-- <div>
+
+    <h1>stop watch</h1>
+    <p> <span id="mint">00</span>: <span id="seconds">00</span>: <span id="tens">00</span></p>
+    <button id="start" onclick="chek()">start</button>
+    <button id="stop">stop</button>
+    <button id="reset">reset</button>
+</div>
+
+<script src="/index.js"></script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <script>
+    function chek() {
+
+        var seconds = 00;
+        var tens = 00;
+
+        var appendTens = document.getElementById("tens");
+        var appendSeconds = document.getElementById("seconds");
+
+        var btnStart = document.getElementById("start")
+        var btnStop = document.getElementById("stop")
+        var btnReset = document.getElementById("reset")
+
+        var interval;
+
+        tens++;
+        if (tens < 9) {
+            appendTens.innerHTML = "0" + tens;
+        }
+        if (tens > 9) {
+            appendTens.innerHTML = tens;
+        }
+
+        if (tens > 99) {
+            seconds++;
+            appendSeconds.innerHTML = "0" + seconds;
+            tens = 0;
+            appendTens.innerHTML = "0" + 0;
+
+        }
+        if (seconds > 9) {
+            appendSeconds.innerHTML = seconds;
+
+        }
+    }
+</script> -->

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            height: 500px;
+            border: 1px solid;
+            width: 300px;
+            background-color: grey;
+
+        }
+        .dashed{
+            
+            stroke: white;
+            stroke: var(--grey2);
+            stroke-width: 6;
+            stroke-dasharray: 1,7.5;
+            color: white;
+        }
+        #inner{
+            stroke: blue;
+            height: 300px;
+        }
+        #text{
+            position: relative;
+            top: -100px;
+            color: white;
+            left: 120px;
+        }
+
+        .dashedWrapper svg {
+  height: 100%;
+  width: 100%;
+}
+.dashedWrapper circle {
+  fill: transparent;
+  stroke: var(--grey2);
+  stroke-width: 3;
+}
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <svg class="dashedWrapper"> 
+            <circle id="inner" cx="50%" cy="50%" r="54" class="dashed"><h1 id="text">hi</h1></circle>
+        </svg>
+    </div>
+    
+</body>
+</html>
